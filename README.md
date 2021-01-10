@@ -1,1 +1,1 @@
-# tm-copy-extends-path
+# Tampermonkey 'Copy Extends Path' Script
