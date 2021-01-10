@@ -2,10 +2,10 @@
 // @name         Ott / GH Shopware - Copy extends path
 // @namespace    https://www.ottscho-it-service.de/
 // @version      1
-// @description  Copy path for template extension
+// @description  Add btn to copy path for template extension
 // @author       OttschoThomas
-// @include        https://github.com/shopware/platform/*
-// @include        https://github.com/shopware/shopware/*
+// @include      https://github.com/shopware/platform/*
+// @include      https://github.com/shopware/shopware/*
 // @grant        none
 // ==/UserScript==
 
