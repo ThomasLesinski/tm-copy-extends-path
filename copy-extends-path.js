@@ -3,7 +3,7 @@
 // @namespace    https://www.ottscho-it-service.de/
 // @version      1
 // @description  Add btn to copy path for template extension
-// @author       OttschoThomas
+// @author       ThomasLesinski
 // @include      https://github.com/shopware/platform/*
 // @include      https://github.com/shopware/shopware/*
 // @grant        none
