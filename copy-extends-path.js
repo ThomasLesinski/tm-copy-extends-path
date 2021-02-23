@@ -26,6 +26,7 @@
 
     if (extendsPath === 'hide') {
       clearInterval(addCopyExtendsPathBtnInterval);
+        
       return;
     } else if (extendsPath === '') {
       additionalClass = 'disabled';
@@ -38,12 +39,12 @@
 
     if (!goToFileBtn) {
       goToFileBtn = document.querySelector('.file-navigation .btn.mr-2.d-none.d-md-block');
-
-      const GoToFileBtnParentEl = goToFileBtn.parentNode;
-
-      document.querySelector('body').append(copyExtendsPathInput);
-      GoToFileBtnParentEl.insertBefore(copyExtendsPathBtn, goToFileBtn);
     }
+
+    const GoToFileBtnParentEl = goToFileBtn.parentNode;
+
+    document.querySelector('body').append(copyExtendsPathInput);
+    GoToFileBtnParentEl.insertBefore(copyExtendsPathBtn, goToFileBtn);
 
     function createCopyExtendsPathInput(extendsPath) {
       const copyExtendsPathInput = document.createElement('input');
