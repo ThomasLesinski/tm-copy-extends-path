@@ -25,8 +25,6 @@
     let additionalClass = '';
 
     if (extendsPath === 'hide') {
-      clearInterval(addCopyExtendsPathBtnInterval);
-        
       return;
     } else if (extendsPath === '') {
       additionalClass = 'disabled';
