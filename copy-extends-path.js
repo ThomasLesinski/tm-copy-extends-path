@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         GH Shopware - Copy extends path
+// @name         GitHub Shopware - Copy extends path
 // @namespace    https://www.ottscho-it-service.de/
 // @version      1
 // @description  Add btn to copy path for template extension
-// @author       ThomasLesinski
+// @author       Thomas Lesinski
 // @include      https://github.com/shopware/platform/*
 // @include      https://github.com/shopware/shopware/*
 // @grant        none
